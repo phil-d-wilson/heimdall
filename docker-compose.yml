@@ -1,0 +1,9 @@
+version: '2.1'
+volumes:
+    settings:
+services:
+  heimdall:
+    image: linuxserver/heimdall:arm64v8-latest
+    restart: always
+    network_mode: host
+    privileged: true

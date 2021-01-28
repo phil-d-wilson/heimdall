@@ -1,0 +1,15 @@
+version: "2"
+slug: "heimdall"
+name: "heimdall"
+type: "sw.application"
+assets:
+  - url: "https://github.com/phil-d-wilson/heimdall"
+    name: "repository"
+  - url: "https://raw.githubusercontent.com/phil-d-wilson/heimdall/master/logo.png"
+    name: "logo"
+data:
+  description: "Connect a raspberry pi to a TV or monitor and track cryptocurrencies"
+  defaultDeviceType: "raspberrypi4-64"
+  supportedDeviceTypes:
+    - "raspberrypi4-64"
+    - "raspberrypi400-64"
