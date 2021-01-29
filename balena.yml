@@ -5,7 +5,7 @@ type: "sw.application"
 assets:
   - url: "https://github.com/phil-d-wilson/heimdall"
     name: "repository"
-  - url: "https://raw.githubusercontent.com/phil-d-wilson/heimdall/master/logo.png"
+  - url: "https://raw.githubusercontent.com/phil-d-wilson/heimdall/main/logo.png"
     name: "logo"
 data:
   description: "A way to organise all those links to your most used web sites and web applications in a simple way"
