@@ -1,14 +1,16 @@
-version: "2"
-slug: "heimdall"
 name: "heimdall"
+description: "A way to organise all those links to your most used web sites and web applications in a simple way"
 type: "sw.application"
 assets:
-  - url: "https://github.com/phil-d-wilson/heimdall"
-    name: "repository"
-  - url: "https://raw.githubusercontent.com/phil-d-wilson/heimdall/main/logo.png"
-    name: "logo"
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/phil-d-wilson/heimdall"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/phil-d-wilson/heimdall/main/logo.png"
 data:
-  description: "A way to organise all those links to your most used web sites and web applications in a simple way"
   defaultDeviceType: "raspberrypi4-64"
   supportedDeviceTypes:
     - "raspberrypi4-64"
